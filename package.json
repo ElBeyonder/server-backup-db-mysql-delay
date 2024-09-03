@@ -1,0 +1,28 @@
+{
+  "name": "backup-db-delay",
+  "version": "1.0.0",
+  "description": "Servidor que automaticamente, hara una copia de seguridad de la base de datos elegida.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElBeyonder/server-backup-db-mysql-delay.git"
+  },
+  "keywords": [
+    "ES"
+  ],
+  "author": "TheLastBeyonder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElBeyonder/server-backup-db-mysql-delay/issues"
+  },
+  "homepage": "https://github.com/ElBeyonder/server-backup-db-mysql-delay#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
